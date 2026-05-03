@@ -5,7 +5,7 @@ import ExpenseInput from "./components/ExpenseInput";
 import ExpenseList from "./components/ExpenseList";
 import ChatAgent from "./components/ChatAgent";
 
-const API = "http://localhost:3001/api";
+const API = "https://expense-classifier-production-443b.up.railway.app/api";
 
 export default function App() {
   const [expenses, setExpenses] = useState<Expense[]>([]);

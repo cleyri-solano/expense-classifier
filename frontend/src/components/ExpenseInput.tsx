@@ -4,7 +4,7 @@ interface Props {
     onClassified: () => void;
 }
 
-const API = "http://localhost:3001/api";
+const API = "https://expense-classifier-production-443b.up.railway.app/api";
 
 export default function ExpenseInput({ onClassified }: Props) {
     const [input, setInput] = useState("");

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API = "http://localhost:3001/api";
+const API = "https://expense-classifier-production-443b.up.railway.app/api";
 
 export default function ChatAgent() {
     const [question, setQuestion] = useState("");
